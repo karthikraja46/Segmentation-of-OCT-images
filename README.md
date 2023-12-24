@@ -7,6 +7,9 @@ The investigation focused on the intricate world of OCT images, emphasizing the 
 
 In this study, the researchers proposed the use of Mask RCNN and U-Net models for DME detection. A comparative analysis of performance metrics, including IOU score, Dice coefficient, F1 score, and pixel accuracy, revealed a notable trend. The U-Net architecture consistently outperformed Mask RCNN across these metrics, indicating its efficacy in precise segmentation for DME detection.
 
+
+
+
 Key Performance Metrics (Model 1 vs. Model 2):
 Training Accuracy: 0.996 vs. 0.9858
 Testing Accuracy: 0.9962 vs. 0.9808
@@ -15,6 +18,9 @@ IOU Score: 0.712 vs. 0.1503
 Dice Coefficient: 0.83145 vs. 0.2077
 Precision: 0.999 vs. 0.992
 Recall: 0.980 vs. 0.722
+
+
+
 The higher values for IOU score, Dice coefficient, F1 score, and pixel accuracy observed with the U-Net model highlight its effectiveness in precise segmentation for DME detection.
 
 
